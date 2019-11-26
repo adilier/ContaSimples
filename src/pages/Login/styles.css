@@ -1,0 +1,43 @@
+.left-col{
+  background: rgba(71, 143, 8, 0.35);
+  background: linear-gradient(90deg, rgba(71, 143, 8, 0.35) 27%, rgba(57, 119, 3, 0.35)59%), url("../../assets/images/backgroundLogin.jpg");
+  min-height: 100vh !important;
+  background-size: cover;
+}
+
+.right-col{
+  background: #f6f6f6;
+}
+
+.content-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-login{
+  width: 80%;
+}
+
+.title-login{
+  font-size: 2.35714286em;
+}
+
+.containerForm-login{
+  width: 410px;
+}
+
+.containerForm-login h2{
+  margin-bottom: .78787878787879em;
+  color: #212121;
+  line-height: 1.36363636em;
+  font-weight: 300;
+}
+
+.containerForm-login h3{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: grey;
+  line-height: 1.5em;
+}
