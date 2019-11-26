@@ -1,0 +1,15 @@
+.input-login{
+  border: 1px solid #ececec;
+  background: #fcfcfc;
+  border-radius: 6px;
+  padding: .6em;
+  width: 100%;
+  padding-left: .9em;
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+
+.input-login::placeholder{
+  font-size: 19px;
+  color: #B9B3B3;
+}

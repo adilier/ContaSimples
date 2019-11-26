@@ -1,13 +1,60 @@
-#App {
-  font-family: sans-serif;
-
-  /* Give app full page to work with */
-  height: 100vh;
+.icon-sidebar{
+  margin-right: .3em;
+  font-size: 1.3em;
 }
 
-#page-wrap {
-  text-align: center;
+.infoPhoto-home{
+  border-bottom: solid 3px #62C06C;
+  padding-bottom: 20px;
+}
 
-  /* Prevent sidebar from showing a scrollbar on page */
-  overflow: auto;
+.card-home{
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px 60px;
+  text-align: left;
+  border-left: solid 13px #62C06C;
+
+}
+
+.imageProfile-home{
+  width: 150px;
+  border-radius: 10%;
+}
+
+.content-home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.alignName-home{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.info-home{
+  margin-top: 1.5em;
+}
+
+.info-home h3{
+  font-size: 1.5em;
+}
+
+.info-home .infoTitle-home{
+  color: #737D8C;
+  font-weight: 600;
+}
+
+.titleCard-home{
+  color: rgb(96, 104, 117);
+  display: flex;
+  justify-content: left;
+}
+
+.lastLogin-home{
+  text-align: center;
+  font-size: 1.3em;
 }

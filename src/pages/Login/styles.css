@@ -1,6 +1,6 @@
 .left-col{
-  background: rgba(71, 143, 8, 0.35);
-  background: linear-gradient(90deg, rgba(71, 143, 8, 0.35) 27%, rgba(57, 119, 3, 0.35)59%), url("../../assets/images/backgroundLogin.jpg");
+  background: rgba(88,190,43, 9.35);
+  background: linear-gradient(27deg, rgba(88,190,43,0.35) 33%, rgba(86,179,123,0.35) 80%), url("../../assets/images/backgroundLogin.jpg");
   min-height: 100vh !important;
   background-size: cover;
 }
@@ -17,7 +17,7 @@
 }
 
 .logo-login{
-  width: 80%;
+  width: 800px;
 }
 
 .title-login{
@@ -29,7 +29,7 @@
 }
 
 .containerForm-login h2{
-  margin-bottom: .78787878787879em;
+  margin-bottom: .4em;
   color: #212121;
   line-height: 1.36363636em;
   font-weight: 300;
@@ -40,4 +40,22 @@
   font-weight: 400;
   color: grey;
   line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.button-login{
+  width: 100%;
+  color: white;
+  background: #7be115;
+  border: solid 1px #7edc21;
+  border-radius: 3px;
+  outline: 0;
+  padding: .4em;
+  font-weight: 600;
+  margin-top: .5em;
+}
+
+.button-login:hover{
+  background: #65BD16;
+  border-color: #65BD16;
 }

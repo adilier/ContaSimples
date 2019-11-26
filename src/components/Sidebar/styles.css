@@ -1,3 +1,17 @@
+#App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  background-color: #f6f6f6 !important;
+  min-height: 100vh;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 .bm-item {
   display: inline-block;
   text-decoration: none;
@@ -10,8 +24,8 @@
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
-  top: 36px;
+  left: 50px;
+  top: 30px;
 }
 
 .bm-burger-bars {
@@ -52,6 +66,7 @@
   color: #325326;
   border: 0;
   font-weight: 600;
+  text-align: left;
 }
 
 .botao:hover{
