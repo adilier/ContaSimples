@@ -7,5 +7,23 @@ Projeto criado para participar do processo seletivo da [conta simples](https://g
 Instale o projeto ou clone o mesmo, abra a pasta do projeto no terminal e digite o seguinte comando
 
 ```
-  Yarn install
+  yarn install
+```
+
+ou
+
+```
+  npm install
+```
+
+Depois de ter instalado as dependências, vamos iniciar o projeto, para fazer isso temos que rodar o comando
+
+```
+  yarn start
+```
+
+ou
+
+```
+  npm start
 ```
