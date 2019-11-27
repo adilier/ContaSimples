@@ -42,13 +42,13 @@ function App() {
         </Link>
       </SideBar>
       <ContainerFluid id="page-wrap" fluid="true">
-        <Row className="content-home">
+        <Row className="content-all">
           <Col lg={6}>
-            <div className="titleCard-home">
+            <div className="titleCard">
               <h2>Informações</h2>
             </div>
-            <div className="card-home">
-              <Row className="infoPhoto-home">
+            <div className="cards">
+              <Row className="infoPhoto-home infoContent">
                 <Col lg={4}>
                   <img src={defaultProfile}  className="imageProfile-home"/>
                 </Col>
@@ -88,19 +88,39 @@ function App() {
             </div>
           </Col>
           <Col lg={6}>
-            <div className="titleCard-home">
+            <div className="titleCard">
               <h2>Extratos recentes</h2>
             </div>
-            <div className="card-home">
+            <div className="cards">
               <Row className="infoPhoto-home">
                 <Col lg={12}>
                   <div className="recentTransaction-home">
-                    <Row>
-                      <Col lg={6}>
+                    <Row className="containerTransaction-text">
+                      <Col lg={6} className="leftTransaction-home">
                         <p>23/11/2019</p>
                         <p>19:30</p>
                       </Col>
-                      <Col lg={6}>
+                      <Col lg={6} className="rightTransaction-home">
+                        <p>Pagamento Online</p>
+                        <p>Netshoes, São paulo</p>
+                      </Col>
+                    </Row>
+                    <Row className="containerTransaction-text">
+                      <Col lg={6} className="leftTransaction-home">
+                        <p>23/11/2019</p>
+                        <p>19:30</p>
+                      </Col>
+                      <Col lg={6} className="rightTransaction-home">
+                        <p>Pagamento Online</p>
+                        <p>Netshoes, São paulo</p>
+                      </Col>
+                    </Row>
+                    <Row className="containerTransaction-text">
+                      <Col lg={6} className="leftTransaction-home">
+                        <p>23/11/2019</p>
+                        <p>19:30</p>
+                      </Col>
+                      <Col lg={6} className="rightTransaction-home">
                         <p>Pagamento Online</p>
                         <p>Netshoes, São paulo</p>
                       </Col>
@@ -109,21 +129,16 @@ function App() {
                 </Col>
               </Row>
             </div>
-            <div className="titleCard-home">
-              <h2>Extratos recentes</h2>
+            <div className="titleCard">
+              <h2>Saldo</h2>
             </div>
-            <div className="card-home">
-              <Row className="infoPhoto-home">
+            <div className="cards saldo-home">
+              <Row>
                 <Col lg={12}>
-                  <div className="recentTransaction-home">
+                  <div className="">
                     <Row>
-                      <Col lg={6}>
-                        <p>23/11/2019</p>
-                        <p>19:30</p>
-                      </Col>
-                      <Col lg={6}>
-                        <p>Pagamento Online</p>
-                        <p>Netshoes, São paulo</p>
+                      <Col lg={12}>
+                        <h2>R$ 15,543.65</h2>
                       </Col>
                     </Row>
                   </div>

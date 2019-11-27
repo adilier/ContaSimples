@@ -4,11 +4,14 @@
 }
 
 .infoPhoto-home{
-  border-bottom: solid 3px #62C06C;
   padding-bottom: 20px;
 }
 
-.card-home{
+.infoContent{
+  border-bottom: solid 3px #62C06C;
+}
+
+.cards{
   border-radius: 10px;
   background-color: white;
   padding: 20px 60px;
@@ -22,7 +25,7 @@
   border-radius: 10%;
 }
 
-.content-home{
+.content-all{
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -48,7 +51,7 @@
   font-weight: 600;
 }
 
-.titleCard-home{
+.titleCard{
   color: rgb(96, 104, 117);
   display: flex;
   justify-content: left;
@@ -57,4 +60,44 @@
 .lastLogin-home{
   text-align: center;
   font-size: 1.3em;
+}
+
+.containerTransaction-text{
+  margin-bottom: 1rem;
+  background-color: #BBF4CF;
+  border-radius: 5px;
+  font-weight: 600;
+  color: rgb(68, 68, 68);
+}
+
+.recentTransaction-home p{
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.leftTransaction-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightTransaction-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.saldo-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #5AC2A4;
+  padding: 35px 0;
+}
+
+.saldo-home h2{
+  font-size: 3rem;
 }

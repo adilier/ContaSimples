@@ -1,0 +1,23 @@
+.table-extrato{
+  border-collapse: collapse;
+  width: 100%;
+  color: rgb(44, 63, 42);
+}
+
+.table-extrato thead tr{
+  background-color: #fff !important;
+  text-transform: uppercase;
+}
+
+.table-extrato th{
+  font-size: 25px;
+  padding: 15px;
+}
+
+.table-extrato tr:nth-child(2n+1) {
+  background-color: #D6F4E4;
+}
+
+.table-extrato tr:nth-child(even) {
+  background-color: #E7FBEE;
+}
